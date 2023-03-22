@@ -22,9 +22,9 @@ Anaconda - Python 3.7
 
 ## Program:
 
-# Developed By: S.ABHISHEK
-# Register Number: 212221230002
-# i) Convert BGR and RGB to HSV and GRAY
+### Developed By: S.ABHISHEK
+### Register Number: 212221230002
+### i) Convert BGR and RGB to HSV and GRAY
 ```
 import cv2
 img = cv2.imread('a.jpg')
@@ -42,23 +42,23 @@ cv2.destroyAllWindows()
 ```
 
 
-# ii)Convert HSV to RGB and BGR
+### ii)Convert HSV to RGB and BGR
 
 
 
 
 
-# iii)Convert RGB and BGR to YCrCb
+### iii)Convert RGB and BGR to YCrCb
 
 
 
 
-# iv)Split and Merge RGB Image
+### iv)Split and Merge RGB Image
 
 
 
 
-# v) Split and merge HSV Image
+### v) Split and merge HSV Image
 
 
 
