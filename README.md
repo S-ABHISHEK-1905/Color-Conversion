@@ -21,13 +21,25 @@ Anaconda - Python 3.7
 <br>
 
 ## Program:
-```python
-# Developed By:
-# Register Number:
+
+# Developed By: S.ABHISHEK
+# Register Number: 212221230002
 # i) Convert BGR and RGB to HSV and GRAY
-
-
-
+```
+import cv2
+img = cv2.imread('a.jpg')
+cv2.imshow('original image',img)
+hsv_image = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
+cv2.imshow('BGR2HSV',hsv_image)
+hsv_image1 = cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
+cv2.imshow('RGB2HSV',hsv_image1)
+gray_image = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+cv2.imshow('BGR2GRAY',gray_image)
+gray_image1 = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
+cv2.imshow('RGB2GRAY',gray_image1)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
 
 
 # ii)Convert HSV to RGB and BGR
@@ -51,11 +63,10 @@ Anaconda - Python 3.7
 
 
 
-```
+
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
-<br>
-<br>
+![image](https://user-images.githubusercontent.com/66360846/226851037-e2b7324f-8e35-44a7-bb7a-5c4baf3303c1.png)
 
 ### ii) HSV to RGB and BGR
 <br>
