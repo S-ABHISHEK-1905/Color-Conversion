@@ -6,19 +6,15 @@ To perform the color conversion between RGB, BGR, HSV, and YCbCr color models.
 Anaconda - Python 3.7
 ## Algorithm:
 ### Step1:
-<br>
-
+Import CV2 library.
 ### Step2:
-<br>
-
+Use cv2.cvtcolor() to convert colot in required image.
 ### Step3:
-<br>
-
+Use .imshow() to display and .imwrite() to save.
 ### Step4:
-<br>
-
+Use split() to disperse color into separate channels.
 ### Step5:
-<br>
+Use merge() to combine those separate channels into color.
 
 ## Program:
 ```
